@@ -1,0 +1,20 @@
+header{
+    top: 0;
+  
+}
+
+nav{  background-color:#1e2019;}
+
+body{
+    background-color:#d3d0cb;
+    
+}
+
+h3, h4{
+    text-align: center;
+}
+
+.bold{
+font-weight: bold;
+}
+

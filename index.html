@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Ianoș Alexia-Cezara">
+    <meta name="keywords" content="Gym, Fitness, Sănătate, Nutriție, Relaxare">
+    <meta name="description"
+        content="Bine ați venit la Sala de Fitness FlexZone, un sanctuar dedicat sănătății, vitalității și dezvoltării personale. Fondată cu pasiune și angajament față de binele dvs., misiunea noastră este să vă oferim o experiență de fitness inovatoare și îmbogățitoare.">
+    <title>FlexZone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FlexZone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header id="acasa">
+        <nav class="navbar navbar-expand-md main-navbar fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="imagini/yoga-37263_1280.png" alt="desen cu o persoană care face gimnastică">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#meniu-navigare"
+                    aria-controls="meniu-navigare" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse w-100 navbar-collapse" id="meniu-navigare">
+                <ul class="navbar-nav ms-auto pe-2 ">
+                    <li class="nav-item"><a class="nav-link link-light ps-2" href="#acasa">Acasă</a></li>
+                    <li class="nav-item"><a class="nav-link link-light ps-2" href="#servicii">Servicii</a></li>
+                    <li class="nav-item"><a class="nav-link link-light ps-2" href="#antrenori">Antrenori</a></li>
+                    <li class="nav-item"><a class="nav-link link-light ps-2" href="#abonamente">Abonamente</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div id="liniute" class="carousel slide pt-5 mt-5" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#liniute" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#liniute" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#liniute" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#liniute" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#liniute" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imagini/carusel1.jpg" class="d-block w-100"
+                        alt="fete într-o sală de fitness zâmbind spre cameră">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagini/carusel2.jpg" class="d-block w-100"
+                        alt="fată în prim plan care privește într-o parte">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagini/carusel3.jpg" class="d-block w-100"
+                        alt="două fete care fac un exercițiu împreună">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagini/carusel4.jpg" class="d-block w-100" alt="fată care face abdomene">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagini/carusel5.jpg" class="d-block w-100" alt="fete ridică gantere">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#liniute" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#liniute" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <div class="p-3">
+        <div class="text-center pt-5 pb-4">
+            <h1>FlexZone</h1>
+            <p>
+                Bine ați venit la Sala de Fitness FlexZone, un sanctuar dedicat sănătății, vitalității și dezvoltării
+                personale. Fondată cu pasiune și angajament față de binele dvs., misiunea noastră este să vă oferim o
+                experiență de fitness inovatoare și îmbogățitoare.
+            </p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 g-2  pt-5 w-100 mx-auto">
+            <div class="col">
+                <div class="card bg-primary bg-opacity-50 border border-3 border-dark border-opacity-75 h-100">
+                    <div class="card-body">
+                        <h3 class="card-title">Cine Suntem</h3>
+                        <p class="card-text"> Echipa noastră de instruitori certificați și specializați, cu o vastă
+                            expertiză în domeniul
+                            fitnessului,
+                            este alcătuită din profesioniști dedicați să vă inspire și să vă îndrume pe parcursul
+                            întregii
+                            călătorii
+                            în
+                            universul sănătății. Suntem aici nu doar pentru a vă certifica, ci și pentru a vă oferi un
+                            suport deplin
+                            în
+                            atingerea obiectivelor dvs. de fitness. Prin sfaturi personalizate și îndrumare continuă, vă
+                            ghidăm cu
+                            pasiune și determinare, adaptându-ne la fiecare nivel de experiență pentru a vă asigura că
+                            fiecare pas
+                            în
+                            calea dvs. este unul plin de reușite și progres semnificativ.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-primary bg-opacity-50 border border-3 border-dark border-opacity-75">
+                    <div class="card-body">
+                        <h3 class="card-title">Ce Ne Diferențiază</h3>
+                        <p class="card-text"> La FlexZone, ne axăm cu fermitate pe diversitatea și adaptabilitatea
+                            programelor noastre, fiind
+                            dedicați
+                            să
+                            oferim o experiență fitness unică și personalizată. Gama noastră largă de clase și
+                            antrenamente
+                            acoperă
+                            tot
+                            spectrul, de la sesiuni intense de forță până la clase relaxante axate pe dezvoltarea
+                            flexibilității.
+                            Indiferent dacă sunteți un atlet experimentat în căutare de provocări sau un începător, la
+                            FlexZone găsiți cu siguranță ceva
+                            special
+                            pentru fiecare. Echipa noastră pasionată și instruitorii calificați sunt aici pentru a vă
+                            ghida
+                            în
+                            călătoria
+                            dvs. fitness, asigurându-ne că vă atingeți obiectivele într-un mod plăcut și eficient.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-primary bg-opacity-50 border border-3 border-dark border-opacity-75">
+                    <div class="card-body">
+                        <h3 class="card-title">Angajamentul Nostru Față de Sănătatea Dvs.</h3>
+                        <p class="card-text">La FlexZone, suntem conștienți că sănătatea nu se limitează doar la
+                            antrenamentele din sala de
+                            fitness.
+                            De
+                            aceea, ne propunem să vă oferim mai mult decât exerciții fizice intense. Echipa noastră vă
+                            pune
+                            la
+                            dispoziție consultații personalizate în nutriție și wellness, având ca scop să vă sprijinim
+                            în
+                            adoptarea
+                            unui stil de viață sănătos și echilibrat. Înțelegem importanța alimentației corecte și a
+                            echilibrului
+                            mental
+                            pentru atingerea obiectivelor dvs. de sănătate și bunăstare. Cu sprijinul nostru, veți
+                            descoperi
+                            că
+                            îmbinarea antrenamentelor cu alegerile nutriționale potrivite contribuie la un mod de viață
+                            armonios și
+                            sustenabil.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-primary bg-opacity-50 border border-3 border-dark border-opacity-75 h-100">
+                    <div class="card-body">
+                        <h3 class="card-title">Comunitatea Noastră</h3>
+                        <p class="card-text">La FlexZone, susținem cu entuziasm un spirit de comunitate și colaborare.
+                            Suntem mai mult decât
+                            o sală
+                            de
+                            fitness; suntem un loc unde oamenii se reunesc pentru a împărtăși pasiunea lor pentru
+                            sănătate
+                            și pentru
+                            a
+                            se susține reciproc în călătoria către bunăstare. Ne considerăm o familie dedicată creșterii
+                            individuale
+                            și
+                            colective, unde membrii noștri găsesc inspirație și sprijin într-un mediu prietenos și
+                            motivant.
+                            Indiferent
+                            de nivelul dvs. de fitness sau obiectivele personale, la FlexZone veți descoperi un loc plin
+                            de
+                            energie
+                            pozitivă și camaraderie, încurajându-vă să vă depășiți limitele și să vă atingeți
+                            potențialul
+                            maxim.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center pt-3" id="servicii">
+            <p>
+                Alăturați-vă nouă astăzi și faceți primul pas către o viață mai sănătoasă și mai activă. Suntem
+                entuziasmați
+                să facem parte din călătoria dvs. de transformare!
+            </p>
+        </div>
+        <hr class="mt-5 border border-dark border-3 opacity-75">
+        <div class="pt-5 pb-3 text-center">
+            <h2>Servicii</h2>
+        </div>
+        <div class="card-group pb-3">
+            <div class="card bg-primary bg-opacity-50 border border-2 border-dark border-opacity-75">
+                <div class="card-body">
+                    <h3 class="card-title">Consultanță Nutrițională</h3>
+                    <p class="card-text">Nutriția reprezintă o componentă crucială a unei vieți sănătoase, iar la
+                        FlexZone,
+                        înțelegem importanța sa fundamentală. Echipa noastră de specialiști în nutriție este aici pentru
+                        a
+                        vă oferi sfaturi și recomandări personalizate, sprijinindu-vă în stabilizarea alimentației și în
+                        atingerea obiectivelor dvs. nutriționale. Prin abordarea noastră individualizată, luăm în
+                        considerare preferințele personale, nevoile nutriționale specifice și obiectivele dvs. unice.
+                        Fie că
+                        vă doriți să obțineți o alimentație echilibrată, să pierdeți în greutate sau să vă îmbunătățiți
+                        performanța athletică, suntem aici pentru a vă ghida într-o călătorie nutrițională plină de
+                        succes
+                        și sănătate durabilă.</p>
+                </div>
+            </div>
+            <div class="card bg-primary bg-opacity-50 border border-2 border-dark border-opacity-75">
+                <div class="card-body">
+                    <h3 class="card-title">Programe de Grup
+                        <span class="badge bg-warning">Nou!</span>
+                    </h3>
+                    <p class="card-text">În cadrul programelor noastre de grup, vă invităm să experimentați susținere și
+                        inspirație din partea unei comunități active și motivate. Participarea la aceste programe
+                        colective
+                        nu doar că vă oferă oportunitatea de a vă atinge obiectivele fitness, dar vă și menține
+                        motivația la
+                        cote înalte prin interacțiunea și sprijinul constant al celorlalți membri. Beneficiind de
+                        energia
+                        pozitivă a comunității noastre, veți descoperi că fiecare antrenament devine o experiență
+                        motivantă
+                        și distractivă. Alăturați-vă grupului nostru și pregătiți-vă să obțineți rezultate remarcabile,
+                        fiind susținuți de colegi dedicați și instruitori pasionați.</p>
+                </div>
+            </div>
+            <div class="card bg-primary bg-opacity-50 border border-2 border-dark border-opacity-75 ">
+                <div class="card-body">
+                    <h3 class="card-title">Wellness și Relaxare</h3>
+                    <p class="card-text">La FlexZone, ne concentrăm și pe oferirea de programe și clase care promovează
+                        relaxarea, echilibrul și starea de bine integrală. De la clase de yoga și meditație până la
+                        terapii
+                        de masaj și spații de relaxare, vă susținem în călătoria de găsire a echilibrului perfect între
+                        corp
+                        și minte. Cu instructori specializați și facilități concepute pentru a vă oferi un refugiu de
+                        liniște, avem ca scop să vă ajutăm să experimentați beneficiile unei abordări holistice față de
+                        sănătatea și bunăstarea dvs. Vă invităm să descoperiți cum programele noastre dedicate vă pot
+                        aduce
+                        pace interioară, relaxare profundă și revitalizare pentru a vă susține în fiecare aspect al
+                        vieții
+                        dvs.</p>
+                </div>
+            </div>
+        </div>
+        <div class=" pt-1 text-center" id="antrenori">
+            <p>
+                Descoperiți gama noastră variată de servicii personalizate, concepute pentru a vă ajuta să vă atingeți
+                obiectivele de fitness și să vă îmbunătățiți starea de sănătate și bunăstare.
+            </p>
+        </div>
+        <hr class="mt-5 border border-dark border-3 opacity-75">
+        <div class="text-center pt-5 ">
+            <h2>Echipa Noastră de Antrenori</h2>
+            <div class="pt-3">
+                <p>
+                    La FlexZone, ne mândrim cu o echipă dedicată de antrenori certificați, cu o vastă experiență și o
+                    pasiune
+                    profundă pentru sănătate și fitness. Fiecare membru al echipei noastre aduce nu doar cunoștințe
+                    solide
+                    și
+                    calificări, ci și angajamentul de a vă ghida și motiva în fiecare etapă a călătoriei dvs. către o
+                    viață
+                    mai
+                    sănătoasă și mai activă. Suntem aici nu doar pentru a vă oferi antrenamente eficiente, ci și pentru
+                    a vă
+                    inspira să vă depășiți limitele și să atingeți potențialul maxim. Indiferent de obiectivele dvs.
+                    personale,
+                    echipa noastră este dedicată să vă ofere sprijinul și expertiza necesare pentru a vă atinge cu
+                    succes
+                    obiectivele de sănătate și fitness.
+                </p>
+            </div>
+        </div>
+        <div class="card-group pt-3">
+            <div class="card bg-primary bg-opacity-50 border border-2 border-dark border-opacity-75">
+                <div class="card-body">
+                    <h3 class="card-title">Orientare Personalizată</h3>
+                    <p class="card-text">
+                        Fiecare antrenor de la FlexZone este angajat în succesul dvs. individual. Prin
+                        evaluări
+                        detaliate și
+                        elaborarea de planuri de antrenament personalizate, ne propunem să vă sprijinim
+                        în atingerea
+                        obiectivelor dvs. specifice și să vă depășiți limitele. Înțelegem că fiecare
+                        persoană are
+                        nevoi
+                        și
+                        aspirații unice în ceea ce privește fitnessul, motiv pentru care abordăm
+                        antrenamentele
+                        noastre
+                        cu
+                        atenție la detalii și adaptabilitate. Cu un antrenor dedicat, veți beneficia nu
+                        doar de
+                        îndrumare în
+                        timpul sesiunilor, ci și de suport constant și strategii personalizate pentru a
+                        vă asigura
+                        că
+                        fiecare
+                        pas în direcția obiectivelor dvs. este unul eficient și plin de succes.</p>
+                </div>
+            </div>
+            <div class="card bg-primary bg-opacity-50 border border-2 border-dark border-opacity-75">
+                <div class="card-body pt-4">
+                    <h3 class="card-title">Antrenori Certificați</h3>
+                    <p class="card-text pt-4">
+                        Toți antrenorii noștri sunt certificați și dispun de o vastă experiență în
+                        industria
+                        fitnessului.
+                        Acești
+                        profesioniști au absolvit programe de instruire recunoscute la nivel
+                        internațional și sunt
+                        dedicati
+                        să
+                        ofere cele mai bune sfaturi și îndrumări în cadrul antrenamentelor. Prin
+                        angajamentul lor
+                        față
+                        de
+                        excelență și cunoștințele lor solide, antrenorii noștri vizează să ofere o
+                        experiență de
+                        antrenament
+                        sigură, eficientă și personalizată. Fiecare membru al echipei noastre aduce un
+                        nivel ridicat
+                        de
+                        profesionalism și pasiune, contribuind la crearea unui mediu propice pentru
+                        atingerea
+                        obiectivelor
+                        dvs.
+                        de fitness.</p>
+                </div>
+            </div>
+            <div class="card bg-primary bg-opacity-50 border border-2 border-dark border-opacity-75 ">
+                <div class="card-body">
+                    <h3 class="card-title">Diversitate în Expertiză</h3>
+                    <p class="card-text">Fiecare antrenor de la FlexZone este angajat în succesul dvs.
+                        individual.
+                        Prin evaluări
+                        detaliate și
+                        elaborarea de planuri de antrenament personalizate, ne propunem să vă sprijinim
+                        în atingerea
+                        obiectivelor dvs. specifice și să vă depășiți limitele. Înțelegem că fiecare
+                        persoană are
+                        nevoi
+                        și
+                        aspirații unice în ceea ce privește fitnessul, motiv pentru care abordăm
+                        antrenamentele
+                        noastre
+                        cu
+                        atenție la detalii și adaptabilitate. Cu un antrenor dedicat, veți beneficia nu
+                        doar de
+                        îndrumare în
+                        timpul sesiunilor, ci și de suport constant și strategii personalizate pentru a
+                        vă asigura
+                        că
+                        fiecare
+                        pas în direcția obiectivelor dvs. este unul eficient și plin de succes.</p>
+                </div>
+            </div>
+            <div class="card bg-primary bg-opacity-50 border border-2 border-dark border-opacity-75">
+                <div class="card-body">
+                    <h3 class="card-title">Pasionați de Succesul Dvs.</h3>
+                    <p class="card-text">Suntem deplin dedicați să vă ajutăm să vă atingeți obiectivele
+                        și să vă
+                        depășiți așteptările.
+                        Echipa
+                        noastră este aici nu doar pentru a vă furniza antrenamente eficiente, ci și
+                        pentru a vă
+                        oferi
+                        sprijinul
+                        emoțional, motivația constantă și cunoștințele necesare pentru a vă transforma
+                        viața prin
+                        fitness.
+                        Cu
+                        pasiunea noastră comună pentru sănătate și bunăstare, suntem angajați să vă
+                        ghidăm în
+                        fiecare
+                        etapă
+                        a
+                        călătoriei dvs. fitness, asigurându-ne că fiecare efort depus vă aduce mai
+                        aproape de
+                        obiectivele
+                        dvs.
+                        personale. Împreună, vom crea un parcurs care nu doar să vă îmbunătățească forma
+                        fizică, ci
+                        să
+                        vă
+                        inspire și să vă propulseze într-o stare de bine generală.</p>
+                </div>
+            </div>
+            <div class="text-center pt-3">
+                <p>
+                    Alegeți echipa noastră de antrenori pentru a vă îndruma în călătoria către o
+                    versiune mai
+                    sănătoasă
+                    și mai
+                    fericită a dvs. La FlexZone, suntem aici pentru a face ca fiecare pas să conteze.
+                </p>
+            </div>
+        </div>
+        <div class="text-center pt-5 pb-5">
+            <h2>Antrenorii noștri</h2>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col col-md-4 mx-auto mb-2 d-flex flex-column">
+                    <div
+                        class="card bg-primary bg-opacity-50 border border-2 border-dark border-opacity-75 flex-grow-1 ">
+                        <div class="card-header">
+                            <p class="card-text text-center bold">Expertă în fitness</p>
+                        </div>
+                        <div class="card-body">
+                            <img src="imagini/gabriela.jpg" class="card-img-top"
+                                alt="femeie care ridică gantere între timp ce se uită in oglindă">
+                            <h3 class="pt-3">Gabriela</h3>
+                            <p> Sesiuni de antrenament personal într-o sală de fitness privată sau în aer liber.</p>
+                            <p class="bold"> Preț/oră: 100-150 de lei.</p>
+                            <div class="border border-2 border-dark border-opacity-75 p-2 mb-2">
+                                <span class="badge bg-warning">-20%</span>
+                                <h4>Pachet de Antrenament Personalizat</h4>
+                                <p>Cuprinde: 10 sesiuni de antrenament personal, evaluare a obiectivelor și plan
+                                    personalizat de
+                                    exerciții.</p>
+                                <p class="bold">Preț: 800 de lei.</p>
+                            </div>
+                            <div class="border border-2 border-dark border-opacity-75 p-2">
+                                <h4>Abonament Lunar Nelimitat</h4>
+                                <p>Cuprinde: Acces nelimitat la sesiuni de fitness într-o lună.</p>
+                                <p class="bold">Preț: 600 de lei pe lună.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-md-4 mx-auto mb-2 d-flex flex-column">
+                    <div
+                        class="card bg-primary bg-opacity-50 border border-2 border-dark border-opacity-75 flex-grow-1">
+                        <div class="card-header">
+                            <p class="card-text text-center bold">Expert în weight-lifting</p>
+                        </div>
+                        <div class="card-body">
+                            <img src="imagini/petre.jpg" class="card-img-top" alt="bărbat care face flotări cu gantere">
+                            <h3 class="pt-3">Petre</h3>
+                            <p>Antrenament într-o sală de forță bine echipată sau în spații special amenajate pentru
+                                weight-lifting.</p>
+                            <p class="bold">Preț/ședință: 120-180 de lei.</p>
+                            <div class="border border-2 border-dark border-opacity-75 p-2 mb-2">
+                                <h4>Program de Antrenament Intensiv</h4>
+                                <p>Cuprinde: 12 sesiuni de weight-lifting, evaluare a progresului și planificare a
+                                    antrenamentelor.
+                                </p>
+                                <p class="bold">Preț: 1200 de lei.</p>
+                            </div>
+                            <div class="border border-2 border-dark border-opacity-75 p-2 mb-2">
+                                <h4>Pachet de Consultanță Nutrițională</h4>
+                                <p>Cuprinde: 3 sesiuni de antrenament personalizate și 2 sesiuni de consiliere
+                                    nutrițională.
+                                </p>
+                                <p class="bold">Preț: 700 de lei.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-md-4 mx-auto d-flex flex-column ">
+                    <div
+                        class="card bg-primary bg-opacity-50 border border-2 border-dark border-opacity-75 flex-grow-1">
+                        <div class="card-header">
+                            <p class="card-text text-center bold">Expertă în yoga</p>
+                        </div>
+                        <div class="card-body">
+                            <img src="imagini/livia.jpg" class="card-img-top" alt="femeie care își face încălzirea">
+                            <h3 class="pt-3">Livia</h3>
+                            <p>Sesiuni de yoga într-un studio liniștit sau la locații exterioare.</p>
+                            <p class="bold"> Preț/ședință: 80-120 de lei.</p>
+                            <div class="border border-2 border-dark border-opacity-75 p-2 mb-2">
+                                <h4>Pachet Relaxare Totală</h4>
+                                <p>Cuprinde: 5 sesiuni de yoga, meditație ghidată și uleiuri esențiale.</p>
+                                <p class="bold">Preț: 450 de lei.</p>
+                            </div>
+                            <div class="border border-2 border-dark border-opacity-75 p-2 mb-2"><span
+                                    class="badge bg-warning ">-20%</span>
+                                <h4>Abonament Anual </h4>
+                                <p>Cuprinde: Acces la toate clasele de yoga timp de un an.</p>
+                                <p class="bold">Preț: 1500 de lei.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pt-3 text-center" id="abonamente">
+            <p>Antrenorii FlexZone reprezintă resursa esențială pentru succesul tău în atingerea obiectivelor de
+                fitness, oferind expertiză, îndrumare personalizată și motivație constantă pentru a-ți maximiza
+                rezultatele.</p>
+        </div>
+        <hr class="mt-3 border border-dark border-3 opacity-75">
+        <div class="text-center pt-5">
+            <h2>Abonamente</h2>
+            <p class="bold">Descoperiți Oportunitățile Noastre de Abonament</p>
+            <p>La FlexZone, ne-am dedicat să oferim opțiuni variate de abonament pentru a vă încuraja să
+                vă atingeți
+                obiectivele de fitness și să vă bucurați de beneficiile unui stil de viață activ și
+                sănătos. Alegeți
+                abonamentul care se potrivește cel mai bine nevoilor dvs. și începeți călătoria către o
+                viață mai
+                sănătoasă
+                împreună cu noi.</p>
+            <div class="card-group pt-3 pb-3">
+                <div class="card bg-primary bg-opacity-50 border border-2 border-dark border-opacity-75">
+                    <div class="card-body">
+                        <h3 class="card-title">Abonament Flexibil - 99 RON/lună</h3>
+                        <p class="card-text">Dacă sunteți în căutarea unei flexibilități complete, abonamentul nostru
+                            flexibil vă oferă
+                            posibilitatea de
+                            a participa la oricare dintre clasele și evenimentele noastre în funcție de
+                            disponibilitatea
+                            dvs.
+                            Programați-vă sesiunile în funcție de ritmul dvs. de viață și bucurați-vă de
+                            diversitatea
+                            antrenamentelor
+                            noastre.</p>
+                    </div>
+                </div>
+                <div class="card bg-primary bg-opacity-50 border border-2 border-dark border-opacity-75">
+                    <div class="card-body">
+                        <h3 class="card-title">Abonament Premium - 199 RON/lună</h3>
+                        <p class="card-text">Pentru cei care caută un angajament mai profund, abonamentul nostru premium
+                            oferă
+                            beneficii
+                            exclusive.
+                            Accesați clase exclusive, sesiuni de masaj și consultanțe nutriționale
+                            personalizate pentru
+                            a vă
+                            maximiza
+                            rezultatele. Cu acest abonament, vă veți bucura de privilegii speciale și
+                            sprijin premium în
+                            călătoria dvs.
+                            fitness.</p>
+                    </div>
+                </div>
+                <div class="card bg-primary bg-opacity-50 border border-2 border-dark border-opacity-75 ">
+                    <div class="card-body">
+                        <h3 class="card-title">Abonament de Grup - 79 RON/lună</h3>
+                        <p class="card-text">Pentru cei care apreciază puterea și motivarea antrenamentului în grup,
+                            avem
+                            abonamentul de
+                            grup.
+                            Participați
+                            la clase colective motivate și fiți susținuți de energia pozitivă a comunității
+                            noastre în
+                            fiecare
+                            antrenament.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center pb-3">
+                <p>Abonamentele de la FlexZone oferă oportunitatea ideală pentru a-ți îmbunătăți sănătatea și a-ți
+                    atinge obiectivele fitness, beneficiind de servicii personalizate și echipamente de înaltă calitate.
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container-fluid w-100 ">
+            <div class="row bg-dark text-light p-5">
+                <div class="col col-12 col-md-4 text-center mb-4">
+                    <h2>Contact</h2>
+                    <h3 class="fs-5">Telefon </h3>
+                    <p>07xxxxx</p>
+                    <h3 class="fs-5">Mail</h3>
+                    <p>xxx@xxx.ro</p>
+                    <h3 class="fs-5">Follow us</h3>
+                    <div>
+                        <a href="https://www.instagram.com/" target="_blank"><img src="imagini/instagram.png"
+                                alt="logo al aplicației instagram"></a>
+                        <a href="https://www.youtube.com/" target="_blank"><img src="imagini/youtube.png"
+                                alt="logo al aplicației youtube"></a>
+                        <a href="https://www.facebook.com/" target="_blank"><img src="imagini/facebook.png"
+                                alt="logo al aplicației facebook"></a>
+                    </div>
+                </div>
+                <div class="col col-12 col-md-4 text-center mb-3">
+                    <h2>Program </h2>
+                    <p>L-V: 9:00-23:00</p>
+                    <p>S: 11:00-20:00</p>
+                    <p>D: 12:00-17:00</p>
+                </div>
+                <div class="col col-12 col-md-4 text-center">
+                    <h2>
+                        Pagini utile
+                    </h2>
+                    <p>Termeni și condiții</p>
+                    <p>Politica de confidențialitate</p>
+                    <p>Politica de cookies</p>
+                    <p>Regulament intern de funcționare</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
